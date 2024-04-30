@@ -1,0 +1,11 @@
+import mysql.connector as conn
+
+
+connector = conn.connect(
+host="localhost", port='3306', user='root', password='root', database='bot')
+        
+cur = connector.cursor()
+query = 'CREATE TABLE IF NOT EXISTS data(url text, name text, category text, description text default NULL, upc text, product_type text, final_price text, tax text, stock int, rating int);'
+
+
+cur.execute(query)
