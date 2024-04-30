@@ -1,0 +1,6 @@
+in this type of recommendation system, the recommendation will depend on the product. for example, if a user likes action  and comedy movies and he has watched movies : 'mov1', 'mov2' and 'mov5' and you also like action and comedy movies and you have watched movies : 'mov5' and 'mov1' then you will be recommended with 'mov2' next.
+
+SIMILARITY MEASURE:
+there are many similarity measures used for content based filtering, but the most used ones are:
+	- correlation similarity
+	-cosine similarity

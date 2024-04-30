@@ -1,0 +1,1 @@
+here the recommendations are shown by their popularity. for example, 'trending now' section of netflix will show movies that are popular in your region but will not be based on your liking.
